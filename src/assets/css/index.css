@@ -1,0 +1,108 @@
+/* Codepen configs */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+  
+  /* NAV BAR */
+
+.header__container{
+    border: 1px solid #000;
+    height: 3rem;
+    width: 100%;
+}
+  
+.menu-toggle {
+      background: none;
+      color: #000;
+      z-index: 1000;
+      cursor: pointer;
+      border: none;
+      border-radius: 0;
+      position: fixed;
+    align-self: center;
+    margin-left: 10px;
+  }
+  
+.menu-toggle:hover {
+      background: none;
+  }
+  
+.menu-toggle-content {
+      position: absolute;
+      display: block;
+      top: 0;
+      width: 400px;
+    transform: translate3d(-515px, 0, 0);
+      transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+      background-color: #000;
+      z-index: 999;
+  }
+  
+.menu-toggle-content.active {
+      transform: translate3d(0, 0, 0);
+      transition: transform .5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  
+.menu-toggle-content ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+  }
+  
+.menu-toggle-content--items {
+      position: relative;
+      height: 100vh;
+      overflow-y: auto;
+      z-index: -1;
+      display: block;
+      background-color: #e6e6e6;
+      padding: 0 1em;
+      border-top: #e6e6e6 solid 75px;
+  }
+  
+.menu-toggle-content--items li {
+      font-size: 1.6em;
+      border-bottom: 2px solid #5f5f63;
+      text-transform: lowercase;
+      padding: 10px 0;
+      font-weight: bold;
+     font-family: 'Segoe UI';
+  }
+  
+.menu-toggle-content--items a {
+      text-decoration: none;
+  }
+
+/* MENU */
+
+.container__menu{
+    border: 1px solid #000;
+    margin-top: 10px;
+}
+.container__menu-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 16px;
+}
+
+.container__menu-title > h1{
+    color: #533128;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container__menu-title > p{
+    color: #714F46;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 170%;
+    width: 320px;
+}
