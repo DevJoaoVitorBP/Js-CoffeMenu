@@ -1,45 +1,45 @@
 const menu = [{
-    img : 'assets/img/expresso.jpg',
-    name: 'Expresso',
+    img: 'assets/img/expresso.jpg',
+    name: 'Espresso',
     alt: 'Café expresso'
 },
 {
-    img: 'assets/img/mocha.jpg',
+    img: 'assets/img/expresso.jpg',
     name: 'Mocha',
     alt: 'Café mocha'
 },
 {
-    img: 'assets/img/Latte Machito.jpg',
-    name: 'Latte machito',
-    alt: 'Café latte machito'
+    img: 'assets/img/expresso.jpg',
+    name: 'flate white',
+    alt: 'Flate white'
 },
 {
-    img: 'assets/img/Ice coffe.jpg',
+    img: 'assets/img/expresso.jpg',
     name: 'Ice coffe',
     alt: 'Café gelado'
 },
 {
-    img: 'assets/img/Macchiato.jpg',
+    img: 'assets/img/expresso.jpg',
     name: 'Macchiato',
     alt: 'Café macchiato'
 },
 {
-    img: 'assets/img/Cappuccino.jpg',
+    img: 'assets/img/expresso.jpg',
     name: 'Cappuccino',
-    alt: 'Café cappuccino'    
+    alt: 'Café cappuccino'
 }
 ];
 
 const container = document.querySelector('.container__menu-content');
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
     displayMenuItems(menu);
 });
 
-function displayMenuItems(menuItems){
-    let displayMenu = menuItems.map(function (item){
+function displayMenuItems(menuItems) {
+    let displayMenu = menuItems.map(function (item) {
         return `
-         <div class="container__menu-content">
+         <div class="menu-item">
             <img 
              src="${item.img}" 
              width="125"
@@ -52,4 +52,3 @@ function displayMenuItems(menuItems){
     displayMenu = displayMenu.join("");
     container.innerHTML = displayMenu;
 }
-
