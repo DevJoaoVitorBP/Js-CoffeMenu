@@ -1,30 +1,30 @@
 const menu = [{
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/Espresso.jpg',
     name: 'Espresso',
     alt: 'Café expresso'
 },
 {
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/Mocha.jpg',
     name: 'Mocha',
     alt: 'Café mocha'
 },
 {
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/Espresso.jpg',
     name: 'flate white',
     alt: 'Flate white'
 },
 {
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/IceCoffe.jpg',
     name: 'Ice coffe',
     alt: 'Café gelado'
 },
 {
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/Machiato.jpg',
     name: 'Macchiato',
     alt: 'Café macchiato'
 },
 {
-    img: 'assets/img/expresso.jpg',
+    img: 'assets/img/Espresso.jpg',
     name: 'Cappuccino',
     alt: 'Café cappuccino'
 }
