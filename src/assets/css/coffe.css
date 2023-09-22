@@ -69,3 +69,90 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+.counter__container-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-left: 24px;
+}
+
+.counter__container-btn > span{
+    color: #533128;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.counter__container-btn--minus{
+    width: 40px;
+    height: 40px;
+    background: #533128;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+    color: #fff;
+}
+
+.counter__container-btn--plus{
+    width: 40px;
+    height: 40px;
+    background: #533128;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 23px;
+}
+
+.price__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 342px;
+    height: 48px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.price__container-value > h2{
+    color: #533128;
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price__container-value > p{
+    color: #533128;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.price__container-btn{
+    padding: 16px 56px;
+    background: #533128;
+    border-radius: 32px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+
+.price__container-btn--button{
+    display: flex;
+    font-family: 'Montserrat';
+    background: #533128;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+   
+}
