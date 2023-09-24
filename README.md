@@ -9,7 +9,7 @@
  <img src="./img/2pag.png" width="200" />
 </div>
 
-<p align = "center">A coffe menu project created with JavaScript based on Figma layout.</p>
+A coffe menu project created with JavaScript based on Figma layout.
 
 ## Features
 
