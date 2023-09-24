@@ -2,8 +2,9 @@
 
 # Random Color Flipper
 
-![Coffe shop main](./img/main.png)
-![Coffe shop product](./img/2pag.png)
+<img src = "./img/main.png" height = "200"/>
+<img src = "./img/2pag.png" height = "200"/>
+
 
 A coffe menu project created with JavaScript based on Figma layout.
 
