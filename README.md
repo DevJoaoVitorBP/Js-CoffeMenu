@@ -2,12 +2,12 @@
 
 # Coffe shop
 
-<p float="left">
+<div float="left" align="center">
 
  <img src="./img/main.png" width="200" />
  
  <img src="./img/2pag.png" width="200" />
-</p>
+</div>
 
 A coffe menu project created with JavaScript based on Figma layout.
 
