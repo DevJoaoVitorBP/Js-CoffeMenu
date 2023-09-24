@@ -4,7 +4,7 @@
 
 <div float="left" align="center">
 
- <img src="./img/main.png" width="200" style = "margin-right: 22px;"/>
+ <img src="./img/main.png" width="200"/>
  
  <img src="./img/2pag.png" width="200" />
 </div>
