@@ -2,7 +2,7 @@
 
 # Coffe shop
 
-<div float="left" align="center" gap = "22px">
+<div float="left" align="center">
 
  <img src="./img/main.png" width="200" />
  
