@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-.coffe__container{
-    display: flex;
-}
 
 .coffe__container > img{
     width: 100%;

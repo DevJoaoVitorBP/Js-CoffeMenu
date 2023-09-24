@@ -1,24 +1,18 @@
-/* Codepen configs */
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  
-  
 
-
+/* HEADER */
 .header__container{
 
-    border: 1px solid #000;
     height: 3rem;
     width: 100%;
-    margin-left: 24px;
-    margin-top: 34px;
+    margin-top: 1rem;
 }
-  
+
+/* HEADER hamburguer menu */
 .menu-toggle {
       background: none;
       color: #000;
@@ -79,12 +73,14 @@
   
 .menu-toggle-content--items a {
       text-decoration: none;
-  }
+      font-family: 'Segoe UI';
+      font-weight: bold;
+      color: #000;
+    }
 
 /* MENU */
 
 .container__menu{
-    border: 1px solid #000;
     margin-top: 10px;
     padding: 1rem;
     width: 100%;
@@ -128,7 +124,6 @@
   line-height: 170%;
 }
 .menu-item{
-  border: 1px solid #000;
   display: inline-flex;
   flex-direction: column;
   margin-right: 32px;
@@ -139,7 +134,9 @@
   border-radius: 30px;
 }
 
-.menu-item > h2{
+
+.menu-item > a{
+  text-decoration: none;
   color: #533128;
   font-family: 'Montserrat';
   font-weight: 700;
@@ -147,3 +144,4 @@
   margin-top: 8px;
   font-size: 14px;
 }
+

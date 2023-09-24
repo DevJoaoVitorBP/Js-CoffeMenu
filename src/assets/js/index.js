@@ -2,10 +2,12 @@ import menu from '../js/menu.js';
 
 const container = document.querySelector('.container__menu-content');
 
+// Load the menu items
 window.addEventListener('DOMContentLoaded', function () {
     displayMenuItems(menu);
 });
 
+// Display the menu items
 function displayMenuItems(menuItems) {
     let displayMenu = menuItems.map(function (item) {
         return `
@@ -17,7 +19,7 @@ function displayMenuItems(menuItems) {
              height="125" 
              alt="${item.alt}">
             <h2 class="title">${item.name}</h2>
-          </a>
+        </a>
             </div>
         `;
     });
